@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export SPARK_EXECUTOR_URI=http://downloads.mesosphere.io.s3.amazonaws.com/spark/assets/spark-1.6.0.tgz
-
 MANTL_API_MESOS_SECRET_PATH=/etc/sysconfig/mantl-api
 if [ -f "$MANTL_API_MESOS_SECRET_PATH" ];
 then
