@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export SPARK_EXECUTOR_URI=http://pele.farmbio.uu.se/spark-mantl/spark-mantl-1.6.0.tgz
+export SPARK_EXECUTOR_URI=http://pele.farmbio.uu.se/spark-mantl/spark-mantl-2.0.1.tgz
 
 MANTL_API_MESOS_SECRET_PATH=/etc/sysconfig/mantl-api
 if [ -f "$MANTL_API_MESOS_SECRET_PATH" ];
